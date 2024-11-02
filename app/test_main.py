@@ -3,7 +3,6 @@ from app.main import get_coin_combination
 from typing import List
 
 
-
 @pytest.mark.parametrize("cents, expected_result", [
     (0, [0, 0, 0, 0]),
     (1, [1, 0, 0, 0]),  # 1 penny
